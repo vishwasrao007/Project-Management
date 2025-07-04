@@ -4,7 +4,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { Badge } from '@/components/ui/badge';
 import { Building2, TrendingUp, AlertTriangle, CheckCircle, Users } from 'lucide-react';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://your-app.up.railway.app/api';
 
 const GroupHeadDashboard = () => {
   const [projects, setProjects] = useState([]);

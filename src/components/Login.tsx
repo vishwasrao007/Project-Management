@@ -6,7 +6,7 @@ import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { User } from 'lucide-react';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://your-app.up.railway.app/api';
 
 interface LoginProps {
   onLogin: (user: any) => void;

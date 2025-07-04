@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "../ui/select";
 import { Checkbox } from "../ui/checkbox";
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://your-app.up.railway.app/api';
 
 export default function CreateProject() {
   const [projectName, setProjectName] = useState("");

@@ -13,7 +13,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://your-app.up.railway.app/api';
 
 interface Project {
   id: string;

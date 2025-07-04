@@ -14,7 +14,7 @@ import AppSidebar from '@/components/AppSidebar';
 import Login from '@/components/Login';
 import { useToast } from '@/hooks/use-toast';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://your-app.up.railway.app/api';
 
 const HIERARCHY_LEVELS = [
   'Team Member',
