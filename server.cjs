@@ -1,9 +1,9 @@
 const express = require('express');
+const db = require('./firebase.cjs');
+
 const app = express();
 const PORT = 4000;
 app.use(express.json());
-
-const db = require('./firebase.cjs');
 
 app.get('/api/auth/users', async (req, res) => {
   try {

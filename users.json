@@ -63,6 +63,13 @@
       "password": "janak123",
       "role": "Team Member",
       "name": "Janak Chauhan"
+    },
+    {
+      "id": "1751631233823",
+      "username": "suresh",
+      "password": "suresh123",
+      "role": "Team Member",
+      "name": "Suresh Sonavane"
     }
   ]
 }

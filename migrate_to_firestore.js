@@ -2,6 +2,7 @@ import { db } from './firebase.js';
 import { setDoc, doc } from 'firebase/firestore';
 import usersData from './users.json' assert { type: 'json' };
 import dbData from './db.json' assert { type: 'json' };
+import fs from 'fs';
 
 async function importUsers() {
   const users = usersData.users;
