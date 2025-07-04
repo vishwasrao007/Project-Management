@@ -1,0 +1,61 @@
+{
+  "members": [],
+  "projects": [
+    {
+      "name": "AI",
+      "type": "main",
+      "priority": "Low",
+      "status": "Ongoing",
+      "startDate": "2025-07-04",
+      "endDate": "2025-10-29",
+      "commonPages": 0,
+      "uniquePages": 0,
+      "tasks": [
+        "Eva AI",
+        "Chating Box"
+      ],
+      "teamMembers": [
+        "1751600349536"
+      ],
+      "id": "1751601906077"
+    },
+    {
+      "name": "Eva AI",
+      "type": "sub",
+      "priority": "Medium",
+      "status": "DONE",
+      "startDate": "2025-07-04",
+      "endDate": "2025-07-31",
+      "commonPages": 4,
+      "uniquePages": 4,
+      "tasks": [
+        "IU",
+        "HTML",
+        "CSS"
+      ],
+      "mainProjectId": "1751601906077",
+      "teamMembers": [
+        "1751600349536"
+      ],
+      "id": "1751603190220"
+    },
+    {
+      "name": "Newsletter",
+      "type": "main",
+      "priority": "Medium",
+      "status": "In Development",
+      "startDate": "2025-07-04",
+      "endDate": "2025-07-23",
+      "commonPages": 0,
+      "uniquePages": 2,
+      "tasks": [
+        "HTML"
+      ],
+      "mainProjectId": "",
+      "teamMembers": [
+        "1751600349536"
+      ],
+      "id": "1751605333688"
+    }
+  ]
+}
