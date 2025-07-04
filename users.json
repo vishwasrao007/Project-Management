@@ -56,6 +56,13 @@
       "password": "ramanik123",
       "role": "Team Leader",
       "name": "Ramanik Pevekar"
+    },
+    {
+      "id": "1751625223221",
+      "username": "janak",
+      "password": "janak123",
+      "role": "Team Member",
+      "name": "Janak Chauhan"
     }
   ]
 }
