@@ -1,8 +1,19 @@
 const express = require('express');
+const cors = require('cors');
 const db = require('./firebase.cjs');
 
 const app = express();
 const PORT = 4000;
+
+app.use(cors({
+  origin: [
+    'http://localhost:8080', // local frontend
+    'https://your-app.up.railway.app' // Railway backend (replace with your actual Railway URL)
+    // Add your production frontend URL here if needed
+  ],
+  credentials: true
+}));
+
 app.use(express.json());
 
 app.get('/api/auth/users', async (req, res) => {
